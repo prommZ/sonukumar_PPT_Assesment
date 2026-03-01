@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl enable nginx
+sudo systemctl status nginx
+git clone https://github.com/priyanshusharma1902/Amazon-Clone.git
+sudo cp -r Amazon-Clone/* /var/www/html
